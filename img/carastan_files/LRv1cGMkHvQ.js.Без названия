@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Ybwm6"]); }
+
+__d("relay-experimental/useSubscription",["react","relay-experimental/useRelayEnvironment","relay-runtime"],(function(a,b,c,d,e,f){"use strict";var g,h=g||b("react"),i=b("relay-runtime").requestSubscription;function a(a){var c=b("relay-experimental/useRelayEnvironment")();h.useEffect(function(){var b=i(c,a);b=b.dispose;return b},[c,a])}e.exports=a}),null);
